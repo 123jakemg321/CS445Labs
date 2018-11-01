@@ -34,7 +34,7 @@ public class SortLab
 	}
 	/**
 		Helper method that does one iteration of bubble sort by traversing the array left to right.
-		In other words, sortForwards compares every pair of neighbor values in the unsorted section
+		In other words, sortForward compares every pair of neighbor values in the unsorted section
 		of the array and swaps them if they are not in ascending order.
 
 		@param array  The array of values to be sorted
