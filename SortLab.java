@@ -1,3 +1,7 @@
+//Author: Jacob Gilbert
+//University of Pittsburgh
+//Created on October 11, 2018
+
 public class SortLab
 {
 	public static void main(String args[])
