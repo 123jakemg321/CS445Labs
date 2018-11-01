@@ -13,7 +13,8 @@ public class SortLab
 			printArray(cocktailShakerSort(unsorted[i]));
 	}
 	
-	//Prints the passed array one element at a time separated by a comma
+	/**printArray prints the passed array one element at a time separated by a comma
+	**/
 	public static <T> void printArray(T[] array)
 	{
 		for(int i = 0; i < array.length-1; i++)
@@ -23,8 +24,9 @@ public class SortLab
 		System.out.println(array[array.length-1]);
 	}
 	
-	//The cocktail shaker sort algorithm, which applies the idea of bubble sort in both directions.
-	//Note i ranges from 0 to array length divided by 2, since two elements are sorted per iteration
+	/**The cocktail shaker sort algorithm is essentially a "bidirectional" bubblesort.
+	Note i ranges from 0 to array length divided by 2, since two elements are sorted per iteration
+	**/
 	public static <T extends Comparable<T>> T[] cocktailShakerSort(T[] array)
 	{
 		T[] sorted = array;
