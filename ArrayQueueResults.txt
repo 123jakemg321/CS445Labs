@@ -1,0 +1,13 @@
+After successfully running ArrayQueue.java, the output should be the following:
+
+Initial List: First!, Second!
+Resized list: First!, Second!, Third!, Fourth!, Fifth!
+First! has been dequeued.
+Remaining list: Second!, Third!, Fourth!, Fifth!
+New list with additions: Second!, Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!, Ninth!
+Current underlying data array: [Ninth!, Second!, Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!]
+Second! has been dequeued.
+New list with removal: Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!, Ninth!
+Current underlying data array: [Ninth!, null, Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!]
+Newly resized list: Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!, Ninth!, Tenth!, Eleventh!
+Final underlying data array: [Third!, Fourth!, Fifth!, Sixth!, Seventh!, Eighth!, Ninth!, Tenth!, Eleventh!, null, null, null, null, null, null, null]
