@@ -1,4 +1,4 @@
-After successfully running ArrayQueue.java, the output should be the following:
+After successfully running ArrayQueueLab.java, the output should be the following:
 
 Initial List: First!, Second!
 Resized list: First!, Second!, Third!, Fourth!, Fifth!
